@@ -1,0 +1,32 @@
+.box{
+    width: auto;
+}
+
+#carros{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+img{
+    width: 300px;
+    display: inline;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.seletor{
+    display: block;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+p{
+    margin: 0;
+    text-align: center;
+    align-content: center;
+}
+
+input{
+    margin-bottom: 50px;
+}
